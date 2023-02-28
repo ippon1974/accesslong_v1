@@ -1,23 +1,22 @@
 .container {
-  width: 100%;
-  height: 100%;
-}
-.container .containerShow {
-  align-items: start;
+  
 }
 
-.containerShow {
+.container .containerShow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   display: grid;
   grid-template-columns: 362px auto;
 }
 
 .containerShow div{
-  
+  background: rgb(245, 215, 19);
 }
 
 .containerShow img {
   display: block;
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 
@@ -27,7 +26,6 @@
 }
 
 .containerShow .descAnt {
-  background: gold;
   height: 100%;
 }
 
