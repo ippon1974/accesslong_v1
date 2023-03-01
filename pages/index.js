@@ -2,6 +2,7 @@ import Head from 'next/head'
 import classes from '../styles/Home.module.scss';
 import Image from "next/image";
 
+
 export default function Home() {
   return (
     <div className={classes.container}>
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main>
-        
+
         <div className={classes.containerShow}>
          <div>
                  <Image 

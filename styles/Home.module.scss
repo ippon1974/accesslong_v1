@@ -2,7 +2,7 @@
   
 }
 
-.container .containerShow {
+.containerShow {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -36,4 +36,7 @@
 .containerShow .descAnt .price {
   font-size: 110%;
 }
+
+@import '/styles/res/429.scss';
+@import '/styles/res/415.scss';
 

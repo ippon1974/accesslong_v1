@@ -1,0 +1,12 @@
+@media (max-width: 429px){
+    $max-width: 388px;
+    .containerShow{
+      margin: 0;
+      padding: 0;
+      grid-template-areas:
+              "nav"
+              "main"
+              "footer";
+      grid-template-columns: auto;
+    }
+  }
