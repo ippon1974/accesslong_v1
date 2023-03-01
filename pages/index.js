@@ -30,7 +30,16 @@ export default function Home() {
             <p className={classes.decs}>Рабочая частота: 240&mdash;390 МГц</p>
             <p className={classes.price}>Цена: <strong>550 руб.</strong></p>
             <p>Пн-Пт с 9:00 до 20:00</p>
-            <p>Телефон: + 7 (925) 585-33-71 (Мегафон)</p>
+            <p><strong>Телефон</strong>: + 7 (925) 585-33-71 (Мегафон)</p>
+            <p><strong>Доставка по России:</strong></p>
+            <ul>
+              <li>Авито Доставка</li>
+              <li>Автортрейдинг</li>
+              <li>Деловые Линии</li>
+              <li>Почта России</li>
+              <li>СДЭК</li>
+            </ul>
+            <hr/>
           </div>
         </div>
         
