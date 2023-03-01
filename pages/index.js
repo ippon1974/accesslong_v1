@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <div className={classes.descAnt}>
             <h1>Антенна для переносной трубки Senao SN 258 Plus</h1>
-            <p className={classes.decs}>Рабочая частота телефона: 240&mdash;390 МГц</p>
+            <p className={classes.decs}>Рабочая частота: 240&mdash;390 МГц</p>
             <p className={classes.price}>Цена: <strong>550 руб.</strong></p>
             <p>Пн-Пт с 9:00 до 20:00</p>
             <p>Телефон: + 7 (925) 585-33-71 (Мегафон)</p>
