@@ -1,5 +1,6 @@
 .container {
-  
+  background: black;
+  height: 100%;
 }
 
 .containerShow {
@@ -35,6 +36,11 @@
 
 .containerShow .descAnt .price {
   font-size: 110%;
+}
+
+
+.footer {
+  
 }
 
 @import '/styles/res/429.scss';

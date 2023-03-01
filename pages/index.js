@@ -39,14 +39,14 @@ export default function Home() {
               <li>Почта России</li>
               <li>СДЭК</li>
             </ul>
-            <hr/>
+            
           </div>
         </div>
         
       </main>
       {/* <hr /> */}
       <footer className={classes.footer}>
-        @Accesslong store 2023
+        {/* <div className={classes.footer}>@ Accesslong store 2023</div> */}
       </footer>
 
     </div>
