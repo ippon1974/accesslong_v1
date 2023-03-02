@@ -48,7 +48,7 @@ export default function Home() {
       <footer className={classes.footer}>
         {/* <div className={classes.footer}>@ Accesslong store 2023</div> */}
       </footer>
-
+      
     </div>
   )
 }
