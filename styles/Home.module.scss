@@ -1,62 +1,53 @@
-.container {
-  
-}
-
-
-
-
-.containerShow {
+.page{
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
   display: grid;
-  grid-template-columns: 362px auto;
+  grid-template-areas: 
+    "head"
+    "nav"
+    "body"
+    "footer";
 }
 
-.containerShow div{
-  background: rgb(245, 215, 19);
+.page .header {
+  grid-area: head;
+  padding: 10px;
+  background: gold;
 }
 
-.containerShow img {
-  display: block;
-  width: 100%;
-  height: auto;
+.page .header h1 {
+  font-size: 200%;
 }
 
-.containerShow .descAnt h1 {
-  padding: 0 20px;
-  font-weight: normal;
-  color: black;
+.page .header h1 p {
+  font-size: 2.5vh;
 }
 
-.containerShow .descAnt h2 {
-  padding: 0 20px;
-  font-size: 100%;
-  font-weight: normal;
-  color: black;
+.page .navigation {
+  grid-area: nav;
+  background:green;
 }
 
-.containerShow .descAnt {
-  height: 100%;
+.page .body {
+  grid-area: body;
+  background: gold;
 }
 
-.containerShow .descAnt p {
-  padding: 0 20px;
-  color: black;
+.page .footer {
+  grid-area: footer;
+  background: gray;
 }
 
-.containerShow .descAnt .price {
-  font-size: 110%;
-  color: green;
+.page .body .containerGoods {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: red;
+  gap:0px;
 }
 
-.containerShow .descAnt ul li {
-  color: black;
-}
-
-
-.footer {
-  
+.page .body .containerGoods .good {
+  margin: 0 10px;
 }
 
 @import '/styles/res/429.scss';

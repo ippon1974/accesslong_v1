@@ -10,15 +10,53 @@ export default function Home() {
       <Head>
         <title>Антенна для переносной трубки Senao SN 258 Plus. Цена: 550 руб.</title>
         <meta name="description" content="" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+
+      <div className={classes.page}>
+        <div className={classes.header}>
+          <h1>Lorem ipsum dolor <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius officiis doloribus?</p></h1>
+        </div>
+        <div className={classes.navigation}>
+          navigat
+        </div>
+        <div className={classes.body}>
+
+          <div className={classes.containerGoods}>
+            <div className={classes.good}>
+              <Image src={'/img/01.jpg'} width={'280'} height={'200'} />
+              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, enim.</h2>
+              <p>Desc of one ...</p>
+            </div>
+            <div className={classes.good}>
+             <Image src={'/img/01.jpg'} width={'280'} height={'200'} />
+             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur at vitae, itaque laboriosam voluptas architecto.</h2>
+             <p>Desc of one ...</p>
+            </div>
+            <div className={classes.good}>
+              <Image src={'/img/01.jpg'} width={'280'} height={'200'} />
+              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+              <p>Desc of one ...</p>
+            </div>
+            <div className={classes.good}>
+             <Image src={'/img/01.jpg'} width={'280'} height={'200'} />
+             <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum aperiam corporis est!</h2>
+             <p>Desc of one ...</p>
+            </div>
+          </div>
+
+        </div>
+        <div className={classes.footer}>footer</div>
       </div>
+
+
+      {/* <div className={classes.wrapper}>
+        <div className={classes.goods1}>goods 1</div>
+        <div className={classes.goods2}>goods 2</div>
+        <div className={classes.goods3}>goods 3</div>
+        <div className={classes.goods4}>goods 4</div>
+      </div> */}
 
 
       {/* <main>
@@ -52,8 +90,6 @@ export default function Home() {
         </div>
         
       </main> */}
-      
-     
       
    </div>
   )
