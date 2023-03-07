@@ -6,13 +6,14 @@
   grid-template-areas: 
     "head"
     "nav"
+    "subnav"
     "body"
     "footer";
 }
 
 .page .header {
   grid-area: head;
-  padding: 10px;
+  padding: 1em 1em;
   background: gold;
 }
 
@@ -21,33 +22,90 @@
 }
 
 .page .header h1 p {
-  font-size: 2.5vh;
+  padding: 0.5em 0 0 0;
+  font-size: 2.0vh;
 }
 
 .page .navigation {
   grid-area: nav;
-  background:green;
+  background:black;
+  padding: 1em 1em;
+}
+
+.page .navigation a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 70%;
+  font-weight: bold;
+  
+}
+
+.page .subnavigation {
+  grid-area: subnav;
+  display: none;
+  // background:orange;
+  // padding: 1em 1em;
 }
 
 .page .body {
   grid-area: body;
-  background: gold;
-}
-
-.page .footer {
-  grid-area: footer;
-  background: gray;
+  // background: gold;
 }
 
 .page .body .containerGoods {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  background: red;
-  gap:0px;
+  gap:5px;
 }
 
-.page .body .containerGoods .good {
-  margin: 0 10px;
+.page .body .containerGoods .good article {
+  margin: 1em 0;
+  // padding-right: 10px;
+}
+
+.page .body .containerGoods .good article a img {
+  display: block;
+}
+
+.page .body .containerGoods .good article .descAgood {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page .body .containerGoods .good article .descAgood h2 {
+  border-top: 1px solid rgba(128, 128, 128, 0.556);
+  padding: 0.5em 0 0 0;
+}
+
+.page .body .containerGoods .good article .costIndex {
+  margin: 1em 0;
+  padding: 5px 10px;
+  display: inline-block;
+  border: 1px solid green;
+  border-radius: 4px;
+  background: gold;
+  font-weight: bold;
+}
+
+.page .body .containerGoods .good article .costIndex::after {
+  content: "\20BD";
+}
+
+.page .body .containerGoods .good article .descGoodIndex {
+  padding: 0.5em 0 1em 0;
+  font-size: 80%;
+  color: rgba(0, 0, 0, 0.836);
+}
+
+.page .footer {
+  grid-area: footer;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid black;
+  font-size: 70%;
+  color: gray;
 }
 
 @import '/styles/res/429.scss';
