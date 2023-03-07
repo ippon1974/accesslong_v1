@@ -2,6 +2,7 @@ import Head from 'next/head'
 import classes from '../styles/Home.module.scss';
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "../components/ui/footer/main/Footer";
 
 const Home = () => {
   return (
@@ -73,7 +74,8 @@ const Home = () => {
           </div>
 
         </div>
-        <div className={classes.footer}>2023 Accsesslong</div>
+        <Footer />
+        {/* <div className={classes.footer}>2023 Accsesslong</div> */}
       </div>
 
 

@@ -1,0 +1,29 @@
+  .menuContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    justify-content: left;
+    grid-auto-rows: auto;
+    background-image: url(/greenbg.png);
+  }
+
+  .itemMenu {
+    display: block;
+    color: #f2f2bf;
+    padding: 7px;
+    border-right: 1px solid #f2f2bf;
+  }
+
+  .itemMenu a {
+    padding: inherit;
+    font: 23px/17px 'BebasNeueRegular',Arial,sans-serif;
+    text-decoration: none;
+    color: #f2f2bf;
+  }
+
+  .itemMenu:hover {
+    background-image: url(/activenavbg.png);
+  }
+
+  .activenew {
+    background-image: url(/activenavbg.png);
+  }

@@ -1,0 +1,19 @@
+@media (max-width: 391px) {
+    $max-width: 390px;
+    .footerMobile div p {
+        display: none;
+    }
+    .footerlineMobile {
+       margin: initial; 
+       padding: 0;
+       height: 50px;
+       max-width: $max-width;
+    }
+    .footerlineMobile div {
+       text-align: center;
+    }
+    .footerlineMobile div span {
+        font-size: 90%;
+        color: grayscale($color: #999999);
+    }
+}
