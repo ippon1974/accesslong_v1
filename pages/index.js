@@ -41,9 +41,9 @@ const Home = () => {
             <div className={classes.good}>
               <article>
               <Link href={'goods/ahs258plus'}> 
-              <Image src={'/img/antennas/ant_hs_258_plus.jpg'} width={'300'} height={'300'} />
+              <Image src={'/img/antennas/ant_garmin_320_hs.jpg'} width={'300'} height={'300'} />
               </Link>
-              <div className={classes.costIndex}>550</div>
+              <div className={classes.costIndex}>685</div>
               <Link className={classes.descAgood} href={'goods/ahs258plus'}><h2>Антенна для навигатора Garmin Astro 320, Garmin Astro 220</h2></Link>
               <p className={classes.descGoodIndex}>Лидер продаж. 150-160 МГц гибкая антенна Garmin Astro 220, Garmin Astro 320 портативная антенна</p>
               </article>
@@ -52,7 +52,7 @@ const Home = () => {
             <div className={classes.good}>
               <article>
               <Link href={'goods/ahs258plus'}> 
-              <Image src={'/img/antennas/ant_hs_258_plus.jpg'} width={'300'} height={'300'} />
+              <Image src={'/img/antennas/dog_garmin_320.jpg'} width={'300'} height={'300'} />
               </Link>
               <div className={classes.costIndex}>3240</div>
               <Link className={classes.descAgood} href={'goods/ahs258plus'}><h2>Охотничий GPS ошейник T5 для навигатора Garmin Astro 320, Garmin Astro 220</h2></Link>
