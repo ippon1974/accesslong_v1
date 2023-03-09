@@ -31,7 +31,7 @@ const AntFlexHsGarmin320 = () => {
           
           <div className={classes.containerGood}>
             <div className={classes.goodImg}>
-              <Image src={"/img/antennas/ant_garmin_320_hs.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
+              <Image src={"/img/antennas/ant_garmin_320_hs.jpg"} width={"450"} height={"500"} alt={'Антенна гибкая для навигатора Garmin Astro 320, Garmin Astro 220'} />
             </div>
             <div className={classes.goodDesc}>
               <h2>Антенна гибкая для навигатора Garmin Astro 320, Garmin Astro 220</h2>

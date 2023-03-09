@@ -31,7 +31,7 @@ const Ant3G4G5GLTE = () => {
           
           <div className={classes.containerGood}>
             <div className={classes.goodImg}>
-              <Image src={"/img/antennas/3g4glte_1.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
+              <Image src={"/img/antennas/3g4glte_1.jpg"} width={"450"} height={"500"} alt={'Направленная выносная антенна 3G, 4G, LTE, 5G'} />
             </div>
             <div className={classes.goodDesc}>
               <h2>Направленная выносная антенна 3G, 4G, LTE, 5G</h2>

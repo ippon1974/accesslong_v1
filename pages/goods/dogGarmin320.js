@@ -31,7 +31,7 @@ const DogGarmin320 = () => {
           
           <div className={classes.containerGood}>
             <div className={classes.goodImg}>
-              <Image src={"/img/antennas/dog_garmin_320.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
+              <Image src={"/img/antennas/dog_garmin_320.jpg"} width={"450"} height={"500"} alt={'Охотничий GPS ошейник T5 для навигатора Garmin Astro 320, Garmin Astro 220'} />
             </div>
             <div className={classes.goodDesc}>
               <h2>Охотничий GPS ошейник T5 для навигатора Garmin Astro 320, Garmin Astro 220</h2>
