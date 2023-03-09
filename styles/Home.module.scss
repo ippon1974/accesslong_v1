@@ -21,6 +21,13 @@
   font-size: 200%;
 }
 
+.page .header h1 a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
 .page .header h1 p {
   padding: 0.5em 0 0 0;
   font-size: 2.0vh;
@@ -50,7 +57,11 @@
 
 .page .body {
   grid-area: body;
-  // background: gold;
+}
+
+.page .body .contacts h1 {
+  margin: 1em 0;
+  font-size: 200%;
 }
 
 .page .body .containerGoods {

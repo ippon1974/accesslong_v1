@@ -4,13 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Footer from "../../components/ui/footer/main/Footer";
 
-export default function AntHsSenao258Plus() {
-    return(
+const Ant3G4G5GLTE = () => {
+    return (
         <>
-        <div>
+             <div>
       
       <Head>
-        <title>Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus</title>
+        <title>Направленная выносная антенна 3G, 4G, LTE, 5G</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -31,13 +31,13 @@ export default function AntHsSenao258Plus() {
           
           <div className={classes.containerGood}>
             <div className={classes.goodImg}>
-              <Image src={"/img/antennas/ant_hs_258_plus.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
+              <Image src={"/img/antennas/3g4glte_1.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
             </div>
             <div className={classes.goodDesc}>
-              <h2>Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus</h2>
-              <p>Рабочая частота: 240—390 МГц</p>
-              <p>Антенна совместима с радиотелефонами: Senao SN 258 Sport, Senao SN 258 Flashlight</p>
-              <div>Цена: <div className={classes.costId}>500</div></div>
+              <h2>Направленная выносная антенна 3G, 4G, LTE, 5G</h2>
+              <p>Рабочие частоты антенны: 698-960 / 1710-2700 / 3300-4000 МГц.</p>
+              <p>Коэффициент усиления: 12 дБ</p>
+              <div>Цена: <div className={classes.costId}>7800</div></div>
               <p><strong>Доставка по России</strong></p>
               <ul className={classes.listDeliv}>
                 <li>Авито Доставка</li>
@@ -59,3 +59,4 @@ export default function AntHsSenao258Plus() {
         </>
     )
 }
+export default Ant3G4G5GLTE;

@@ -4,13 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Footer from "../../components/ui/footer/main/Footer";
 
-export default function AntHsSenao258Plus() {
-    return(
+const AntFlexHsGarmin320 = () => {
+    return (
         <>
-        <div>
+         <div>
       
       <Head>
-        <title>Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus</title>
+        <title>Антенна гибкая для навигатора Garmin Astro 320, Garmin Astro 220</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -31,13 +31,12 @@ export default function AntHsSenao258Plus() {
           
           <div className={classes.containerGood}>
             <div className={classes.goodImg}>
-              <Image src={"/img/antennas/ant_hs_258_plus.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
+              <Image src={"/img/antennas/ant_garmin_320_hs.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
             </div>
             <div className={classes.goodDesc}>
-              <h2>Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus</h2>
-              <p>Рабочая частота: 240—390 МГц</p>
-              <p>Антенна совместима с радиотелефонами: Senao SN 258 Sport, Senao SN 258 Flashlight</p>
-              <div>Цена: <div className={classes.costId}>500</div></div>
+              <h2>Антенна гибкая для навигатора Garmin Astro 320, Garmin Astro 220</h2>
+              <p>Рабочая частота: 150—160 МГц</p>
+              <div>Цена: <div className={classes.costId}>685</div></div>
               <p><strong>Доставка по России</strong></p>
               <ul className={classes.listDeliv}>
                 <li>Авито Доставка</li>
@@ -59,3 +58,4 @@ export default function AntHsSenao258Plus() {
         </>
     )
 }
+export default AntFlexHsGarmin320;
