@@ -30,6 +30,7 @@ const Constcts = () => {
             <div className={classes.contacts}>
             <h1>Контакты</h1>
             <p>Пн-Пт с 9:00 до 19:00</p>
+            <br />
             <p>Телефон: +7 (925) 124-22-92</p>
             </div>
     
