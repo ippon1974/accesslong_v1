@@ -1,0 +1,49 @@
+@media (max-width: 321px){
+    $max-width: 280px;
+    .page{
+      max-width:  $max-width;
+      margin-left: auto;
+      margin-right: auto;
+      display: grid;
+      grid-template-areas: 
+        "head"
+        "nav"
+        "subnav"
+        "body"
+        "footer";
+    }
+
+    .page .body .contacts h1 {
+      margin: 1em 10px;
+      font-size: 200%;
+    }
+
+    .page .body .contacts p {
+      margin: 0 10px;
+      font-size: 100%;
+    }
+
+    .page .body .containerGoods {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .page .body .containerGoods .good article a img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .page .body .containerGood {
+      max-width:  $max-width;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "goodimg"
+      "gooddesc";
+    }
+    .page .body .containerGood .goodImg img {
+      width: 100%;
+      height: auto;
+    }
+  }
