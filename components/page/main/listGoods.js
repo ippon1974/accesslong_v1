@@ -19,7 +19,7 @@ const ListCoods = () => {
             <div className={classes.good}>
               <article>
               <Link href={'goods/ahsGar320Flex'}> 
-              <Image src={'/img/antennas/ant_garmin_320_hs.jpg'} width={'300'} height={'300'} />
+              <Image src={'/img/antennas/ant_garmin_320_hs.jpg'} width={'300'} height={'300'} alt={'Антенна гибкая для навигатора Garmin Astro 320, Garmin Astro 220'} />
               </Link>
               <div className={classes.costIndex}>685</div>
               <Link className={classes.descAgood} href={'goods/ahsGar320Flex'} title={"Антенна гибкая для навигатора Garmin Astro 320, Garmin Astro 220"}><h2>Антенна гибкая для навигатора Garmin Astro 320, Garmin Astro 220</h2></Link>
