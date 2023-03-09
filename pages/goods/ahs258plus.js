@@ -2,18 +2,22 @@ import Head from 'next/head'
 import classes from '../../styles/goods_id.module.scss';
 import Image from "next/image";
 import Link from "next/link";
+import listGoodsId from '../../components/page/main/listGoodsId';
+import ListGoodsIdMobile from '../../components/page/main/listGoodsIdMobile';
 import Footer from "../../components/ui/footer/main/Footer";
+import { useMediaQuery } from 'react-responsive';
 
 export default function AntHsSenao258Plus() {
     return(
         <>
         <div>
       
-      <Head>
-        <title>Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus</title>
-        <meta name="description" content="" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+          <Head>
+            <title>Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus</title>
+            <meta name="description" content="" />
+            <meta name="viewport" content="width=device-width"/>
+            <link rel="icon" href="/favicon.ico" />
+          </Head>
 
       <div className={classes.page}>
 
@@ -23,6 +27,7 @@ export default function AntHsSenao258Plus() {
         <div className={classes.navigation}>
           <Link href={'/'} title={"Главная"}>Главная</Link> | <Link href={'/contacts'} title={"Контакты"}>Контакты</Link>
         </div>
+        
         {/* <div className={classes.subnavigation}>
           Home | Atenns | Contacts
         </div> */}
