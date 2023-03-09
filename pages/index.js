@@ -54,7 +54,7 @@ const Home = () => {
               <Link href={'goods/dogGarmin320'}> 
               <Image src={'/img/antennas/dog_garmin_320.jpg'} width={'300'} height={'300'} alt={'Охотничий GPS ошейник T5 для навигатора Garmin Astro 320, Garmin Astro 220'} />
               </Link>
-              <div className={classes.costIndex}>3240</div>
+              <div className={classes.costIndex}>780</div>
               <Link className={classes.descAgood} href={'goods/dogGarmin320'} title={'Охотничий GPS ошейник T5 для навигатора Garmin Astro 320, Garmin Astro 220'}><h2>Охотничий GPS ошейник T5 для навигатора Garmin Astro 320, Garmin Astro 220</h2></Link>
               <p className={classes.descGoodIndex}>Ошейник Garmin T5 обладает функцией GPS/Glonass навигацией, которая сделает поиск собаки быстрее и сигнал не пропадет под большими кронами деревьев или в глубоких каньонах</p>
               </article>

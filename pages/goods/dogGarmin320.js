@@ -36,7 +36,7 @@ const DogGarmin320 = () => {
             <div className={classes.goodDesc}>
               <h2>Охотничий GPS ошейник T5 для навигатора Garmin Astro 320, Garmin Astro 220</h2>
               <p>Рабочая частота: 150—160 МГц</p>
-              <div>Цена: <div className={classes.costId}>685</div></div>
+              <div>Цена: <div className={classes.costId}>780</div></div>
               <p><strong>Доставка по России</strong></p>
               <ul className={classes.listDeliv}>
                 <li>Авито Доставка</li>
