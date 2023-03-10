@@ -20,8 +20,8 @@ const Home = () => {
       
       <Head>
         <title>Антенны для навигаторов, раций, радиотелефонов. Антенны 3G,4G, LTE</title>
-        <meta name="description" content="Гидроабразивная резка металла" />
-        <meta name="Keywords" content="Водорезка, гидрорез, гидрорезка, гидроабразив" /> 
+        <meta name="description" content="" />
+        <meta name="Keywords" content="" /> 
         <meta name="viewport" content="width=device-width"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
