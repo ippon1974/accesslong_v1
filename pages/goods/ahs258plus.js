@@ -36,7 +36,11 @@ export default function AntHsSenao258Plus() {
           
           <div className={classes.containerGood}>
             <div className={classes.goodImg}>
-              <Image src={"/img/antennas/ant_hs_258_plus.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
+              <Image src={"/img/antennas/ant_hs_258_plus_1.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
+              <br/>
+              <Image src={"/img/antennas/ant_hs_258_plus_2.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
+              <br/>
+              <Image src={"/img/antennas/ant_hs_258_plus_3.jpg"} width={"450"} height={"500"} alt={'Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus'} />
             </div>
             <div className={classes.goodDesc}>
               <h2>Телескопическая антенна для переносной трубки радиотелефона Senao SN 258 Plus</h2>
